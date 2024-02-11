@@ -1,0 +1,24 @@
+.image-list{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust min and max width as needed */
+  gap: 20px; /* Adjust gap between items as needed */
+  align-items: center;
+  margin: 15px;
+}
+.image-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 250px;
+  
+}
+
+.image-list__img{
+    display: block;
+    max-width: 70%;
+    max-height: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
